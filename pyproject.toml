@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "vidwiz"
+version = "0.1.0"
+description = "Video stats visualization package"
+authors = ["Dinesh Sankara <ysdinesh31@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/ysdinesh31/vidwiz"
+keywords = ["video", "visualization", "packaging"]
+
+[project.urls]
+"Bug Reports" = "https://github.com/ysdinesh31/vidwiz/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
